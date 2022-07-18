@@ -1,18 +1,13 @@
-List of requirements
-1. Create a Django project named restaurant
+List of work done in this project
+1. Django project named restaurant
 2. extend user model and remove userid and Consider Email ID as a login requirement field.
 3. DataBase - Postgres
 4. User type - Customer, restaurant Owner and admin.
 5. Restaurant owners should be able to create a Shop and menu and create a price for the product.
-   Customers can see those details. (No add to cart, no purchase is required).
-   Create a super user and add all the tables in admin.
-6. There should be a sign up, login too
-7. REST API - With the help of DRF please create a listing of products api, and login/signup with simple jwt token. 
-   You can create a json response as you like.
-8. Again I am not looking for HTML/CSS at all, If I’m logged in as a customer I should be able to see the list of product that has been added by owner and
-   if I am logged in as owner than I should  be able to see the product that are added by me and I can add new product.
-9. You can simply use {{form}} in the jinja template. From the admin you should be able to assign a user as customer or owner. 
-   Admin UI - simple  Django default admin.
-
-
-Note - No HTML/CSS is required, create a simple form.
+   Customers can see those details. (No add to cart, no purchase is there).
+   a super user and add all the tables in admin.
+6. There is a sign up and login too
+7. REST API - With the help of DRF created a listing of products api, and login/signup with simple jwt token. 
+   created a json response.
+8. If I’m logged in as a customer I am able to see the list of product that has been added by owner and
+   if I am logged in as owner than I am   be able to see the product that are added by me and I can add new product.
